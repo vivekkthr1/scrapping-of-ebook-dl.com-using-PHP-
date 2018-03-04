@@ -62,18 +62,23 @@ if (array_key_exists('searchText', $_GET)) {
                                  echo '<br>';
                                }
     }
+    else{
+      echo '<div style="background-color: black;color:azure; margin:20px;"
+      ><b>Tips : </b><br><ul><li>Use author name for accurate result.<li>Search for related information like (book name,author).</ul></div>';
+    }
 ?>
     </div>
 
   </div>
   <script src="./particles.js"></script>
  <script>
-    particlesJS.load('particles-js', 'particles.json', function(){
+    particlesJS.load('particles-js', './particles.json', function(){
       console.log('particles.json loaded...');
     });
   </script>
 </body>
 <footer
 style="font-size:30px;font-family:cursive;text-align:center;background-color:#f4f4f4;opacity:0.7;"
->thanks for using!!!</footer>
+>thanks for using!!! this website is only for educational purpose as a personal project.</footer>
+<center><span style="font-size:20px;background-color:#43513b;opacity:0.9;color:#ee6a50">for non commercial use only</sapn></center>
 </html>
